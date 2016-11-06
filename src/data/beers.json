@@ -1,0 +1,2338 @@
+{"beers": [{
+	"id": 6,
+	"name": "Pochmurna Emma",
+	"style": "Saison",
+	"category": "Saison",
+	"brew_date": "2013-07-13",
+	"picture": "emma.jpg",
+    "blg": {
+        "start": 13,
+        "end": 3
+    },
+	"litres": {
+        "preboil": 22,
+        "batch": 19
+    },
+	"recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 2.7
+		}, {
+			"name": "Wiedeński",
+			"weight": 0.8
+		}, {
+			"name": "Pszeniczny",
+			"weight": 0.7
+		}, {
+			"name": "Carahell",
+			"weight": 0.2
+		}, {
+			"name": "Caraaroma",
+			"weight": 0.2
+		}, {
+			"name": "Zakwaszający",
+			"weight": 0.1
+		}],
+		"hops": [{
+			"name": "Marynka",
+			"weight": 30
+		}, {
+			"name": "Saaz",
+			"weight": 30
+		}],
+		"others": [{
+			"name": "Curacao",
+			"weight": 20
+		}, {
+			"name": "Glukoza",
+			"weight": 300
+		}],
+		"start": {
+			"temperature": "70°C",
+			"litres": 14
+		},
+		"mash": [{
+			"temperature": "66°C",
+			"time": "60"
+		}, {
+			"temperature": "72°C",
+			"time": "20"
+		}],
+		"cooking": {
+			"time": "65",
+			"hopping": [{
+                "name": "Marynka",
+                "time": 65,
+                "amount": 30
+			}, {
+                "name": "Saaz",
+                "time": 20,
+                "amount": 20
+			}, {
+                "name": "Curacao",
+                "time": 20,
+                "amount": 20
+			}, {
+                "name": "Saaz",
+                "time": 5,
+                "amount": 10
+			}, {
+                "name": "Glukoza",
+                "time": 5,
+                "amount": 300
+			}]
+		},
+		"yeast": {
+			"name": "Safbrew T-58",
+			"temperature": "24°C"
+		},
+		"fermentation": []
+	},
+	"notes": [
+		"5 dni po zabutelkowaniu jedna butelka eksplodowała. To zmusiło mnie do lekkiego odgazowania wszystkich pozostałych butelek. Dlatego nie ma takiej piany, jakbym chciał. Ale lepsze to niż nieobliczalne granaty w spiżarni.",
+		"Kolor: ciemno-pomarańczowy, średnio mętny",
+		"Piana: niewielka ilość i szybko opada przy piwie schłodzonym do ok. 10°C. Jest to związane z koniecznością odgazowania butelek w czasie leżakowania.",
+		"Zapach: wyraźnie czuć cytrusy. Im dłużej piwo leżakuje, tym bardziej aromat przybiera na sile, a znika pszenica, która była wyczuwalna na początku.",
+		"Smak: pierwsze łyki zawsze kojarzą mi się ze słonecznymi Włochami i chodzeniem pośród winorośli ;) Bardzo orzeźwiające. Nie czuć mocy, która objawia się po wypiciu całej butelki :)",
+		"Jednym zdaniem: orzeźwiające i aromatyczne, zdecydowanie warte powtórzenia piwo."
+	]
+}, {
+	"id": 7,
+	"name": "Słodka Becky",
+	"style": "Porter",
+	"category": "Porter",
+	"brew_date": "2013-07-20",
+	"picture": "becky.jpg",
+	"blg": {
+        "start": 16,
+        "end": 5
+    },
+	"litres": {
+        "preboil": 21,
+        "batch": 17
+    },
+	"recipe": {
+		"grains": [{
+			"name": "Pale Ale",
+			"weight": 4.0
+		}, {
+			"name": "Bursztynowy",
+			"weight": 0.4
+		}, {
+			"name": "Monachijski",
+			"weight": 0.5
+		}, {
+			"name": "Czekoladowy",
+			"weight": 0.3
+		}, {
+			"name": "Black",
+			"weight": 0.2
+		}],
+		"hops": [{
+			"name": "Brewer's Gold",
+			"weight": 40
+		}, {
+			"name": "Fuggles",
+			"weight": 30
+		}],
+		"others": [],
+		"start": {
+			"temperature": "72°C",
+			"litres": 19
+		},
+		"mash": [{
+			"temperature": "67°C",
+			"time": "70"
+		}],
+		"cooking": {
+			"time": "75",
+			"hopping": [{
+                "name": "Brewer's Gold",
+                "time": 60,
+                "amount": 40
+			}, {
+                "name": "Fuggles",
+                "time": 20,
+                "amount": 30
+			}]
+		},
+		"yeast": {
+			"name": "Workhorse M10",
+			"temperature": "23°C"
+		},
+		"fermentation": []
+	},
+	"notes": [
+		"Kolor: ciemnobrązowy, mętny",
+		"Piana: drobnopęcherzykowa, szybko opada, ciemno-kawowa",
+		"Zapach: piękny zapach kawy i gorzkiej czekolady",
+		"Smak: bardzo gorzkie, aż trochę za bardzo. Smak zdominowany przez kawę. Po wypiciu całej butelki zostaje w ustach smak podobny do tego po wypiciu espresso. Najlepiej smakuje solidnie schłodzone."
+	]
+}, {
+	"id": 8,
+	"name": "Rudzielec",
+	"style": "Ginger",
+	"category": "Ginger",
+	"brew_date": "2013-08-23",
+	"picture": "rudy.jpg",
+    "blg": {
+        "start": 11,
+        "end": 1
+    },
+	"litres": {
+        "preboil": 8,
+        "batch": 5
+    },
+	"recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 1
+		}, {
+			"name": "Pale Ale",
+			"weight": 0.25
+		}, {
+			"name": "Karmelowy",
+			"weight": 0.1
+		}],
+		"hops": [{
+			"name": "Brewer's Gold",
+			"weight": 10
+		}, {
+			"name": "Lubelski",
+			"weight": 5
+		}],
+		"others": [{
+			"name": "Starty korzeń imbiru (bez skórki)",
+			"weight": 30
+		}, {
+			"name": "Sok z cytryny",
+			"weight": 20
+		}],
+		"start": {
+			"temperature": "67°C",
+			"litres": 5
+		},
+		"mash": [{
+			"temperature": "63°C",
+			"time": "60"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Brewer's Gold",
+                "time": 60,
+                "amount": 10
+			}, {
+                "name": "Imbir",
+                "time": 10,
+                "amount": 30
+			}, {
+                "name": "Lubelski",
+                "time": 5,
+                "amount": 5
+			}]
+		},
+		"yeast": {
+			"name": "Safale US-05",
+			"temperature": "24°C"
+		},
+		"fermentation": []
+	},
+	"notes": [
+		"Kolor: jasny, złocisty",
+		"Piana: niewielka i szybko znika",
+		"Zapach: dominujący imbir i lekka cytryna",
+		"Smak: rozgrzewające; smak zdominowany przez imbir, ale nie jest on nachalny; lekko wyczuwalny sok z cytryny; im dłużej piwo leżakuje, tym bardziej smak nabiera pełni",
+		"Jednym zdaniem: niezłe ale bez rewelacji"
+	]
+}, {
+	"id": 9,
+	"name": "Pijany Szkot",
+	"style": "Smoked",
+	"category": "Smoked",
+	"brew_date": "2013-08-25",
+	"picture": "szkot.jpg",
+	"blg": {
+        "start": 14,
+        "end": 2
+    },
+	"litres": {
+        "preboil": 22,
+        "batch": 19
+    },
+	"recipe": {
+		"grains": [{
+			"name": "Pale Ale",
+			"weight": 2.5
+		}, {
+			"name": "Whisky",
+			"weight": 1.5
+		}, {
+			"name": "Monachijski",
+			"weight": 0.5
+		}, {
+			"name": "Karmelowy Jasny",
+			"weight": 0.4
+		}, {
+			"name": "Special B",
+			"weight": 0.1
+		}, {
+			"name": "Black",
+			"weight": 0.05
+		}],
+		"hops": [{
+			"name": "Challenger",
+			"weight": 50
+		}, {
+			"name": "Fuggles",
+			"weight": 20
+		}],
+		"others": [],
+		"start": {
+			"temperature": "65°C",
+			"litres": 14
+		},
+		"mash": [{
+			"temperature": "63°C",
+			"time": "50"
+		}, {
+			"temperature": "72°C",
+			"time": "10"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Challenger",
+                "time": 60,
+                "amount": 30
+			}, {
+                "name": "Fuggles",
+                "time": 15,
+                "amount": 10
+			}, {
+                "name": "Fuggles",
+                "time": 10,
+                "amount": 10
+			}, {
+                "name": "Challenger",
+                "time": 5,
+                "amount": 20
+			}]
+		},
+		"yeast": {
+			"name": "Newcastle Dark Ale",
+			"temperature": "24°C"
+		},
+		"fermentation": []
+	},
+	"notes": [
+		"Kolor: ciemna whisky :) , mętny",
+		"Piana: drobna i wysoka, ale nie utrzymuje się długo",
+		"Zapach: mocno dymny, lekko zatykający",
+		"Smak: zbyt zdominowany przez dym. Po słodzie whisky spodziewałem się czegoś bardziej torfowego. Tymczasem wyszło coś wręcz lekko duszącego. Podobno dobrze smakuje z pieczonymi ziemniaczkami, ale nie testowałem :)",
+		"<b>Uwagi:</b><br/>Po kilku miesiącach piwo smakuje mi dużo bardziej niż na początku. Dym ciągle dominuje, ale trochę się wygładziła i teraz jest bardzo przyjemne w piciu."
+	]
+}, {
+	"id": 11,
+	"name": "Amarillion",
+	"style": "AIPA",
+	"category": "AIPA",
+	"brew_date": "2013-09-07",
+	"picture": "amarillion.jpg",
+	"blg": {
+        "start": 15.5,
+        "end": 1
+    },
+	"litres": {
+        "preboil": 23,
+        "batch": 18
+    },
+	"recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 2.5
+		}, {
+			"name": "Pale Ale",
+			"weight": 2
+		}, {
+			"name": "Karmelowy Jasny",
+			"weight": 0.4
+		}, {
+			"name": "Bursztynowy",
+			"weight": 0.1
+		}],
+		"hops": [{
+			"name": "Amarillo",
+			"weight": 170
+		}],
+		"others": [],
+		"start": {
+			"temperature": "70°C",
+			"litres": 15
+		},
+		"mash": [{
+			"temperature": "66°C",
+			"time": "60"
+		}, {
+			"temperature": "72°C",
+			"time": "10"
+		}],
+		"filtering": 23,
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Amarillo",
+                "time": 60,
+                "amount": 40
+			}, {
+                "name": "Amarillo",
+                "time": 30,
+                "amount": 30
+			}, {
+                "name": "Amarillo",
+                "time": 15,
+                "amount": 20
+			}, {
+                "name": "Amarillo",
+                "time": 5,
+                "amount": 10
+			}]
+		},
+		"yeast": {
+			"name": "Belgian Ale",
+			"temperature": "25°C"
+		},
+		"fermentation": [
+			"Amarillo 70g na 7 dni"
+		]
+	},
+	"notes": [
+		"Kolor: jasny, złocisto-bursztynowy",
+		"Piana: wysoka i gęsta, drobnopęcherzykowa, oblepiająca szkło",
+		"Zapach: Amarillo, czyli kwiaty i cytrusy",
+		"Smak: pełne orzeźwienie; kompilacja nut cytrusowych i kwiatowych z karmelowymi. Świetnie smakuje, więc pije się dosyć szybko, a to bywa zdradliwe (w końcu 7,7%)",
+		"Jednym zdaniem: chmielowe orzeźwienie zakończone trzepnięciem w łeb :) Zdecydowanie warto powtórzyć."
+	]
+}, {
+	"id": 12,
+	"name": "Dunkelweizen",
+	"style": "Dunkelweizen",
+	"category": "Dunkelweizen",
+	"brew_date": "2013-11-02",
+	"picture": "dunkelweizen.jpg",
+	"blg": {
+        "start": 13,
+        "end": 4
+    },
+	"litres": {
+        "preboil": 23,
+        "batch": 20
+    },
+	"recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 1
+		}, {
+			"name": "Pszeniczny Ciemny",
+			"weight": 2
+		}, {
+			"name": "Monachijski",
+			"weight": 1
+		}, {
+			"name": "Karmelowy Ciemny",
+			"weight": 0.2
+		}, {
+			"name": "Karmelowy Jasny",
+			"weight": 0.35
+		}],
+		"hops": [{
+			"name": "Lubelski",
+			"weight": 28
+		}],
+		"others": [],
+		"start": {
+			"temperature": "43°C",
+			"litres": 12
+		},
+		"mash": [{
+			"temperature": "42°C",
+			"time": "30"
+		}, {
+			"temperature": "62°C",
+			"time": "20"
+		}, {
+			"temperature": "70°C",
+			"time": "45"
+		}],
+		"filtering": 24,
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Lubelski",
+                "time": 60,
+                "amount": 28
+			}]
+		},
+		"yeast": {
+			"name": "M20 Bavarian Wheat",
+			"temperature": "25°C"
+		},
+		"fermentation": []
+	},
+	"notes": [
+		"Niestety piwo najprawdopodobniej złapało infekcję. Pieniło się nieziemsko. Nawet po 24h w temperaturze minusowej, po otwarciu butelki wystrzeliwał gejzer z piany. 2 butelki nie wytrzymały i eksplodowały.Kilka sztuk wypiłem, ale smak nie zachwycał. Poza tym był zabijany przez zbyt duże nagazowanie.<br/><br/>Efekt - poszło w kanał. Może następne będzie lepsze."
+	]
+}, {
+	"id": 13,
+	"name": "Niewiado Mocco",
+	"style": "Dry Stout",
+	"category": "Stout",
+	"brew_date": "2013-11-30",
+	"picture": "niewiadomo.jpg",
+	"blg": {
+        "start": 10.5,
+        "end": 3
+    },
+	"litres": {
+        "preboil": 15,
+        "batch": 12
+    },
+	"recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 0.5
+		}, {
+			"name": "Pale Ale",
+			"weight": 1.25
+		}, {
+			"name": "Czekoladowy",
+			"weight": 0.2
+		}, {
+			"name": "Black",
+			"weight": 0.1
+		}, {
+			"name": "Special B",
+			"weight": 0.1
+		}],
+		"hops": [{
+			"name": "Challenger",
+			"weight": 45
+		}, {
+			"name": "Lubelski",
+			"weight": 25
+		}],
+		"others": [],
+		"start": {
+			"temperature": "68°C",
+			"litres": 8
+		},
+		"mash": [{
+			"temperature": "64°C",
+			"time": "50"
+		}, {
+			"temperature": "76°C",
+			"time": "10"
+		}],
+		"filtering": 14,
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Challenger",
+                "time": 60,
+                "amount": 25
+			}, {
+                "name": "Lubelski",
+                "time": 30,
+                "amount": 25
+			}, {
+                "name": "Challenger",
+                "time": 5,
+                "amount": 20
+			}]
+		},
+		"yeast": {
+			"name": "Safale US-05",
+			"temperature": "23°C"
+		},
+		"fermentation": []
+	},
+	"notes": [
+		"Bezstylowiec z resztek słodów, chmieli i drożdży.",
+		"Kolor: czarny, jednolity",
+		"Piana: bardzo duża i gęsta, długo się utrzymuje; po nalaniu rośnie i rośnie i rośnie... i rośnie :)",
+		"Zapach: czuć mocną goryczkę i dużo nut kawowych",
+		"Smak: goryczka dominuje. Bardzo dominuje :) . Przykrywa wszystko inne, przez co piwo jest bardzo ciężkie do wypicia. Po kilku tygodniach miałem problem, żeby wypić 0,2l.",
+		"Jednym zdaniem: za bardzo przegiąłem z ciemnymi i palonymi słodami",
+		"<b>Uwagi:</b><br/>Dziś, czyli w <b>Dzień Św. Patryka</b>, prawie 4 miesiące od uwarzenia tego piwa, jestem w stanie wypić je bez soku :) Przeokrutna goryczka trochę zelżała i jest trochę lepiej. Niemniej jednak zostawię je jeszcze na parę miesięcy.",
+		"[2014-11-05] Mocco ma już rok. Gorycz się ustabilizowała, chociaż wciąż nieco dominuje. Pije się całkiem przyjemnie."
+	]
+}, {
+	"id": 14,
+	"name": "EXplorator",
+	"style": "AIPA",
+	"category": "AIPA",
+	"brew_date": "2014-02-28",
+	"picture": "explorator.jpg",
+	"blg": {
+        "start": 13,
+        "end": 2
+    },
+	"litres": {
+        "preboil": 26,
+        "batch": 22
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pale Ale",
+			"weight": 4.8
+		}, {
+			"name": "Crystal 150",
+			"weight": 0.4
+		}, {
+			"name": "Caraaroma",
+			"weight": 0.2
+		}],
+		"hops": [{
+			"name": "Bravo",
+			"weight": 35
+		}, {
+			"name": "Cascade",
+			"weight": 65
+		}, {
+			"name": "Galaxy",
+			"weight": 70
+		}],
+		"others": [],
+		"start": {
+			"temperature": "71°C",
+			"litres": 16
+		},
+		"mash": [{
+			"temperature": "67°C",
+			"time": "90"
+		}, {
+			"temperature": "78°C",
+			"time": "5"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Bravo",
+                "time": 60,
+                "amount": 35
+			}, {
+                "name": "Cascade",
+                "time": 15,
+                "amount": 20
+			}, {
+                "name": "Galaxy",
+                "time": 10,
+                "amount": 25
+			}, {
+                "name": "Cascade",
+                "time": 5,
+                "amount": 25
+			}, {
+                "name": "Galaxy",
+                "time": 3,
+                "amount": 25
+			}]
+		},
+		"yeast": {
+			"name": "Danstar Nottingham",
+			"temperature": "24°C"
+		},
+		"fermentation": [
+			"Chmielenie na zimno z użyciem Cascade (20g) i Galaxy (20g) - 7 dni"
+		]
+	},
+	"notes": [
+		"AIPA przygotowana na zlot fanów Forda Explorera :)",
+		"Kolor: mętny, rdzawo-brązowy",
+		"Piana: drobna i niewielka, krótko się utrzymuje",
+		"Zapach: nuty owocowe, lekko wyczuwalna przyprawowość Cascade",
+		"Smak: mocno nachmielone, orzeźwiające, świetne piwo."
+	]
+}, {
+	"id": 15,
+	"name": "Cascade",
+	"style": "AIPA",
+	"category": "AIPA",
+	"brew_date": "2014-04-30",
+	"picture": "cascade.png",
+	"blg": {
+        "start": 12,
+        "end": 3
+    },
+	"litres": {
+        "preboil": 22,
+        "batch": 18
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pale Ale",
+			"weight": 2
+		}, {
+			"name": "Wiedeński",
+			"weight": 1
+		}, {
+			"name": "Monachijski",
+			"weight": 1
+		}, {
+			"name": "Crystal 150",
+			"weight": 0.3
+		}],
+		"hops": [{
+			"name": "Cascade",
+			"weight": 130
+		}],
+		"others": [],
+		"start": {
+			"temperature": "70°C",
+			"litres": 13
+		},
+		"mash": [{
+			"temperature": "68°C",
+			"time": "70"
+		}, {
+			"temperature": "78°C",
+			"time": "5"
+		}],
+		"cooking": {
+			"time": "70",
+			"hopping": [{
+                "name": "Cascade",
+                "time": 60,
+                "amount": 40
+			}, {
+                "name": "Cascade",
+                "time": 30,
+                "amount": 10
+			}, {
+                "name": "Cascade",
+                "time": 15,
+                "amount": 10
+			}, {
+                "name": "Cascade",
+                "time": 10,
+                "amount": 25
+			}, {
+                "name": "Cascade",
+                "time": 5,
+                "amount": 10
+			}, {
+                "name": "Cascade",
+                "time": 1,
+                "amount": 10
+			}]
+		},
+		"yeast": {
+			"name": "Danstar Nottingham",
+			"temperature": "24°C"
+		},
+		"fermentation": [
+			"Chmielenie na zimno z użyciem Cascade (25g) - 7 dni"
+		],
+		"bottling": "6g/1L"
+	},
+	"notes": []
+}, {
+	"id": 16,
+	"name": "Wit",
+	"style": "Witbier",
+	"category": "Witbier",
+	"brew_date": "2014-05-31",
+	"picture": "wit.png",
+	"blg": {
+        "start": 11,
+        "end": 3
+    },
+    "litres": {
+        "preboil": 24,
+        "batch": 20
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Heidelberg",
+			"weight": 2
+		}, {
+			"name": "Pszeniczny",
+			"weight": 0.5
+		}, {
+			"name": "Pszenica",
+			"weight": 1
+		}],
+		"hops": [{
+			"name": "Lubelski",
+			"weight": 30
+		}],
+		"others": [{
+			"name": "Curacao",
+			"weight": 15
+		}, {
+			"name": "Kolendra",
+			"weight": 15
+		}],
+		"start": {
+			"temperature": "54°C",
+			"litres": 12
+		},
+		"mash": [{
+			"temperature": "52°C",
+			"time": "20"
+		}, {
+			"temperature": "64°C",
+			"time": "60"
+		}, {
+			"temperature": "72°C",
+			"time": "25"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Lubelski",
+                "time": 60,
+                "amount": 30
+			}, {
+                "name": "Curacao",
+                "time": 10,
+                "amount": 15
+			}, {
+                "name": "Kolendra",
+                "time": 10,
+                "amount": 15
+			}]
+		},
+		"yeast": {
+			"name": "M20 Bavarian Wheat",
+			"temperature": "25°C"
+		},
+		"fermentation": [],
+		"bottling": "8g/1L"
+	},
+	"notes": [
+		"Barwa: jasny słomkowy, lekko opalizujący",
+		"Piana: drobnopęcherzykowa, trwała, ładnie oblepia szklankę",
+		"Zapach: słodowy, mało wyrazisty; trochę brakuje charakteru",
+		"Smak: słodko-kwaskowaty, za mało nut cytrusowych i kolendry",
+		"<b>Uwagi:</b><br/>Piwo zostawiłem w warszawskim depozycie piwnym w sklepie Piwomaniak. Ocena była następująca:<br/>Wit od wrooblera. Dobre piwko o pięknym kolorze. Ja bym dodał więcej kolendry i curacao, jak bym robił dla siebie oczywiście. Chyba w przyszłym roku i ja zrobię sobie Wita."
+	]
+}, {
+	"id": 17,
+	"name": "Maliniak",
+	"style": "Fruit American Wheat",
+	"category": "Fruit",
+	"brew_date": "2014-07-18",
+	"picture": "maliniak.png",
+    "blg": {
+        "start": 9.5,
+        "end": 3
+    },
+	"litres": {
+        "preboil": 15,
+        "batch": 13
+    },
+	"recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 1.2
+		}, {
+			"name": "Pszeniczny",
+			"weight": 0.8
+		}, {
+			"name": "Cara Blond",
+			"weight": 0.3
+		}],
+		"hops": [{
+			"name": "Amarillo",
+			"weight": 18
+		}],
+		"others": [{
+			"name": "Miąższ z malin",
+			"weight": 1500
+		}],
+		"start": {
+			"temperature": "64°C",
+			"litres": 8
+		},
+		"mash": [{
+			"temperature": "62°C",
+			"time": "60"
+		}, {
+			"temperature": "76°C",
+			"time": "10"
+		}],
+		"filtering": 16,
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Amarillo",
+                "time": 60,
+                "amount": 12
+			}, {
+                "name": "Maliny",
+                "time": 15,
+                "amount": 1500
+			}, {
+                "name": "Amarillo",
+                "time": 10,
+                "amount": 6
+			}]
+		},
+		"yeast": {
+			"name": "Bavarian Wheat M20 Mangrove Jack",
+			"temperature": "24°C"
+		},
+		"fermentation": [],
+		"bottling": "7g/1L"
+	},
+	"notes": [
+		"Pierwszy pomiar Blg zrobiłem następnego ranka po nocnym warzeniu (przez całą noc piwo się chłodziło). Aromat świetny, w smaku bardzo czuć maliny. Zobaczymy, czy nie będzie zbyt wytrawne jak drożdże zrobią swoje.",
+		"[2014-07-25] Przelane na cichą. Odfermentowało do 2Blg. W smaku całkiem słodkie, aromat malinowy bardzo wyraźny. Idzie ku dobremu :) W związku z tym nie będę już dodawał malin na cichej.",
+		"[2014-08-14] Pierwsza próba. Smakuje kiepsko, nawet bardzo kiepsko :) Butelka zrobiła duży psssyk, a piwo mało nagazowane."
+	]
+}, {
+	"id": 18,
+	"name": "Manilla",
+	"style": "Milk Vanilla Stout",
+	"category": "Stout",
+	"brew_date": "2014-07-20",
+	"picture": "manilla.png",
+	"blg": {
+        "start": 14,
+        "end": 3
+    },
+	"litres": {
+        "preboil": 24,
+        "batch": 21
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 3.85
+		}, {
+			"name": "Caraaroma",
+			"weight": 0.25
+		}, {
+			"name": "Czekoladowy",
+			"weight": 0.4
+		}, {
+			"name": "Palony jęczmień",
+			"weight": 0.1
+		}],
+		"hops": [{
+			"name": "Cascade",
+			"weight": 130
+		}],
+		"others": [{
+			"name": "Laktoza",
+			"weight": 500
+		}, {
+			"name": "Laska wanilli",
+			"weight": -1
+		}],
+		"start": {
+			"temperature": "70°C",
+			"litres": 15
+		},
+		"mash": [{
+			"temperature": "64°C",
+			"time": "30"
+		}, {
+			"temperature": "72°C",
+			"time": "30"
+		}, {
+			"temperature": "76°C",
+			"time": "10"
+		}],
+		"filtering": 28,
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Perle",
+                "time": 60,
+                "amount": 40
+			}, {
+                "name": "Laktoza",
+                "time": 15,
+                "amount": 500
+			}]
+		},
+		"yeast": {
+			"name": "Safale S-04",
+			"temperature": "25°C"
+		},
+		"fermentation": [],
+		"bottling": "5g/1L"
+	},
+	"notes": [
+		"Początkowo bardzo dobre. Po kilku tygodniach wyszedł kwas. Po 3-4 miesiącach stało się przegazowane i kwaśne."
+	]
+}, {
+	"id": 19,
+	"name": "Punkt G",
+	"style": "Blonde Ale",
+	"category": "Ale",
+	"brew_date": "2014-09-05",
+	"picture": "punktg.png",
+    "blg": {
+        "start": 14.5,
+        "end": 3
+    },
+	"litres": {
+        "preboil": 24,
+        "batch": 21
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 2
+		}, {
+			"name": "Pale Ale",
+			"weight": 1.2
+		}, {
+			"name": "Cara Blond",
+			"weight": 0.2
+		}, {
+			"name": "Monachijski",
+			"weight": 0.4
+		}, {
+			"name": "Zakwaszający",
+			"weight": 0.1
+		}],
+		"hops": [{
+			"name": "Hallertau Tradition",
+			"weight": 10
+		}, {
+			"name": "Sybilla",
+			"weight": 8
+		}, {
+			"name": "Galaxy",
+			"weight": 40
+		}],
+		"others": [{
+			"name": "Mech irlandzki",
+			"weight": 3
+		}],
+		"start": {
+			"temperature": "68°C",
+			"litres": 11
+		},
+		"mash": [{
+			"temperature": "66°C",
+			"time": "90"
+		}, {
+			"temperature": "76°C",
+			"time": "15"
+		}],
+		"cooking": {
+			"time": "70",
+			"hopping": [{
+                "name": "Hallertau Tradition",
+                "time": 60,
+                "amount": 10
+			}, {
+                "name": "Sybilla",
+                "time": 60,
+                "amount": 8
+			}, {
+                "name": "Galaxy",
+                "time": 10,
+                "amount": 20
+			}, {
+                "name": "Mech irlandzki",
+                "time": 10,
+                "amount": 5
+			}, {
+                "name": "Galaxy",
+                "time": 1,
+                "amount": 20
+			}]
+		},
+		"yeast": {
+			"name": "Fermentis S-05",
+			"temperature": "25°C"
+		},
+		"fermentation": []
+	},
+	"notes": [
+		"W czasie fermentacji bardzo wyczuwalny <b>octan etylu</b> w smaku i w zapachu. Z dnia na dzień coraz bardziej. Po 3 tygodniach piwo poszło w kanał :("
+	]
+}, {
+	"id": 20,
+	"name": "RedNeck",
+	"style": "Irish Red Ale",
+	"category": "Ale",
+	"brew_date": "2014-10-04",
+	"picture": "redneck.png",
+    "blg": {
+        "start": 12,
+        "end": 3
+    },
+	"litres": {
+        "preboil": 25,
+        "batch": 21
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pale Ale",
+			"weight": 2.85
+		}, {
+			"name": "Wiedeński",
+			"weight": 1
+		}, {
+			"name": "Monachijski",
+			"weight": 0.35
+		}, {
+			"name": "Crystal 150",
+			"weight": 0.3
+		}],
+		"hops": [{
+			"name": "Marynka",
+			"weight": 10
+		}, {
+			"name": "Fuggles",
+			"weight": 50
+		}],
+		"others": [],
+		"start": {
+			"temperature": "55°C",
+			"litres": 14
+		},
+		"mash": [{
+			"temperature": "52°C",
+			"time": "20"
+		}, {
+			"temperature": "66°C",
+			"time": "40"
+		}, {
+			"temperature": "72°C",
+			"time": "30"
+		}],
+		"filtering": 28,
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Marynka",
+                "time": 60,
+                "amount": 10
+			}, {
+                "name": "Fuggles",
+                "time": 60,
+                "amount": 10
+			}, {
+                "name": "Fuggles",
+                "time": 30,
+                "amount": 20
+			}, {
+                "name": "Fuggles",
+                "time": 20,
+                "amount": 20
+			}]
+		},
+		"yeast": {
+			"name": "Wyeast 1084",
+			"temperature": "22°C"
+		},
+		"fermentation": [],
+		"bottling": "Xg/1L"
+	},
+	"notes": [
+		"Pierwsze piwo z wykorzystaniem płynnych drożdży. Po burzliwej zebrana gęstwa do uwarzenia Oak-y Doak-y"
+	]
+}, {
+	"id": 21,
+	"name": "Oaky Doaky",
+	"style": "Smoked",
+	"category": "Smoked",
+	"brew_date": "2014-10-25",
+	"picture": "oaky.png",
+    "blg": {
+        "start": 10.5,
+        "end": 0.5
+    },
+	"litres": {
+        "preboil": 24,
+        "batch": 21
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Whisky",
+			"weight": 3
+		}, {
+			"name": "Caraaroma",
+			"weight": 0.285
+		}, {
+			"name": "Carapils",
+			"weight": 0.5
+		}, {
+			"name": "Monachijski",
+			"weight": 0.3
+		}],
+		"hops": [{
+			"name": "Marynka",
+			"weight": 40
+		}, {
+			"name": "Hallertau Tradition",
+			"weight": 20
+		}],
+		"others": [{
+			"name": "Płatki dębowe Sherry Oloroso",
+			"weight": 20
+		}],
+		"start": {
+			"temperature": "55°C",
+			"litres": 16
+		},
+		"mash": [{
+			"temperature": "55°C",
+			"time": "20"
+		}, {
+			"temperature": "65°C",
+			"time": "45"
+		}, {
+			"temperature": "76°C",
+			"time": "10"
+		}],
+		"filtering": 28,
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Marynka",
+                "time": 60,
+                "amount": 40
+			}, {
+                "name": "Hallertau Tradition",
+                "time": 20,
+                "amount": 20
+			}]
+		},
+		"yeast": {
+			"name": "Wyeast 1084",
+			"temperature": "23°C"
+		},
+		"fermentation": [
+			"Chmielenie na zimno z użyciem płatków dębowych (20g) - 7 dni"
+		],
+		"bottling": "8g/1L"
+	},
+	"notes": [
+		"Wykorzystałem gęstwę Wyeast 1084 z Rednecka."
+	]
+}, {
+	"id": 22,
+	"name": "Oh My Hop!",
+	"style": "Imperial AIPA",
+	"category": "AIPA",
+	"brew_date": "2014-12-27",
+	"picture": "ohmyhop.png",
+    "blg": {
+        "start": 15,
+        "end": 2
+    },
+	"litres": {
+        "preboil": 29,
+        "batch": 27
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 4.5
+		}, {
+			"name": "Pszeniczny",
+			"weight": 0.65
+		}, {
+			"name": "Monachijski",
+			"weight": 0.65
+		}, {
+			"name": "Carared",
+			"weight": 0.1
+		}, {
+			"name": "Cara Gold",
+			"weight": 0.2
+		}, {
+			"name": "Palony jęczmień",
+			"weight": 0.03
+		}],
+		"hops": [{
+			"name": "Amarillo",
+			"weight": 60
+		}, {
+			"name": "Magnum",
+			"weight": 30
+		}, {
+			"name": "Columbus",
+			"weight": 60
+		}, {
+			"name": "Simcoe",
+			"weight": 80
+		}, {
+			"name": "Centennial",
+			"weight": 20
+		}, {
+			"name": "Ahtanum",
+			"weight": 20
+		}, {
+			"name": "Citra",
+			"weight": 80
+		}],
+		"others": [{
+			"name": "Cukier biały",
+			"weight": 450
+		}],
+		"start": {
+			"temperature": "55°C",
+			"litres": 16
+		},
+		"mash": [{
+			"temperature": "64°C",
+			"time": "45"
+		}, {
+			"temperature": "68°C",
+			"time": "10"
+		}, {
+			"temperature": "71°C",
+			"time": "5"
+		}, {
+			"temperature": "76°C",
+			"time": "4"
+		}],
+		"filtering": 30,
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Magnum",
+                "time": 60,
+                "amount": 30
+			}, {
+                "name": "Columbus",
+                "time": 30,
+                "amount": 20
+			}, {
+                "name": "Simcoe",
+                "time": 20,
+                "amount": 20
+			}, {
+                "name": "Citra",
+                "time": 15,
+                "amount": 20
+			}, {
+                "name": "Cukier biały",
+                "time": 15,
+                "amount": 450
+			}, {
+                "name": "Centennial",
+                "time": 10,
+                "amount": 20
+			}, {
+                "name": "Ahtanum",
+                "time": 5,
+                "amount": 20
+			}, {
+                "name": "Amarillo",
+                "time": 2,
+                "amount": 20
+			}, {
+                "name": "Simcoe",
+                "time": 1,
+                "amount": 20
+			}]
+		},
+		"yeast": {
+			"name": "Wyeast 1056 American Ale",
+			"temperature": "22°C"
+		},
+		"fermentation": [
+			"Chmielenie na zimno z użyciem chmieli Columbus (40g), Amarillo (40g), Citra (40g) i Simcoe (40g)"
+		],
+		"bottling": "6g/1L"
+	},
+	"notes": [
+		""
+	]
+}, {
+	"id": 23,
+	"name": "Team Spirit",
+	"style": "Saison",
+	"category": "Saison",
+	"brew_date": "2015-03-07",
+	"picture": "team.png",
+    "blg": {
+        "start": 14.5,
+        "end": 2
+    },
+	"litres": {
+        "preboil": 25,
+        "batch": 21
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 2.1
+		}, {
+			"name": "Pale Ale",
+			"weight": 1.0
+		}, {
+			"name": "Pszeniczny",
+			"weight": 0.6
+		}, {
+			"name": "Monachijski",
+			"weight": 0.41
+		}, {
+			"name": "Carahell",
+			"weight": 0.2
+		}, {
+			"name": "Karmelowy Ciemny",
+			"weight": 0.325
+		}],
+		"hops": [{
+			"name": "Centennial",
+			"weight": 30
+		}, {
+			"name": "Saaz",
+			"weight": 30
+		}],
+		"others": [{
+			"name": "Cukier kandyzowany brązowy",
+			"weight": 100
+		}, {
+			"name": "Curacao",
+			"weight": 20
+		}, {
+			"name": "Skórka z pomarańczy",
+			"weight": 15
+		}],
+		"start": {
+			"temperature": "66°C",
+			"litres": 15
+		},
+		"mash": [{
+			"temperature": "64°C",
+			"time": "60"
+		}, {
+			"temperature": "72°C",
+			"time": "15"
+		}, {
+			"temperature": "76°C",
+			"time": "5"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Centennial",
+                "time": 60,
+                "amount": 30
+			}, {
+                "name": "Saaz",
+                "time": 20,
+                "amount": 20
+			}, {
+                "name": "Curacao",
+                "time": 20,
+                "amount": 20
+			}, {
+                "name": "Skórka pomarańczowa",
+                "time": 20,
+                "amount": 15
+			}, {
+                "name": "Saaz",
+                "time": 5,
+                "amount": 10
+			}, {
+                "name": "Cukier kandyzowany",
+                "time": 5,
+                "amount": 200
+			}]
+		},
+		"yeast": {
+			"name": "Wyeast 3724 Belgian Saison",
+			"temperature": "22°C"
+		},
+		"fermentation": [],
+		"bottling": "7g/1L"
+	},
+	"notes": [
+		""
+	]
+}, {
+	"id": 24,
+	"name": "Kozieł",
+	"style": "Weizenbock",
+	"category": "Bock",
+	"brew_date": "2015-05-22",
+	"picture": "koziel.png",
+    "blg": {
+        "start": 16.5,
+        "end": 2
+    },
+	"litres": {
+        "preboil": 25,
+        "batch": 22
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pszeniczny",
+			"weight": 3.5
+		}, {
+			"name": "Pilzneński",
+			"weight": 1.0
+		}, {
+			"name": "Monachijski",
+			"weight": 2.0
+		}, {
+			"name": "Karmelowy Ciemny",
+			"weight": 0.5
+		}],
+		"hops": [{
+			"name": "Perle",
+			"weight": 15
+		}, {
+			"name": "Saaz",
+			"weight": 25
+		}],
+		"others": [],
+		"start": {
+			"temperature": "45°C",
+			"litres": 12.5
+		},
+		"mash": [{
+			"temperature": "42°C",
+			"time": "90"
+		}, {
+			"temperature": "66°C",
+			"time": "40"
+		}, {
+			"temperature": "72°C",
+			"time": "20"
+		}, {
+			"temperature": "76°C",
+			"time": "5"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Perle",
+                "time": 60,
+                "amount": 15
+			}, {
+                "name": "Saaz",
+                "time": 60,
+                "amount": 25
+			}]
+		},
+		"yeast": {
+			"name": "Wyeast 3638 Bavarian Wheat",
+			"temperature": "24°C"
+		},
+		"fermentation": [],
+		"bottling": "4g/1L"
+	},
+	"notes": [
+		""
+	]
+}, {
+	"id": 25,
+	"name": "Czarny Charakter",
+	"style": "Oatmeal Stout",
+	"category": "Stout",
+	"brew_date": "2015-09-26",
+	"picture": "czarny.png",
+    "blg": {
+        "start": 14,
+        "end": 3
+    },
+	"litres": {
+        "preboil": 24,
+        "batch": 20
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 2
+		}, {
+			"name": "Monachijski",
+			"weight": 1.2
+		}, {
+			"name": "Owsiany",
+			"weight": 0.8
+		}, {
+			"name": "Karmelowy Ciemny",
+			"weight": 0.3
+		}, {
+			"name": "Barwiący",
+			"weight": 0.2
+		}, {
+			"name": "Jęczmień palony",
+			"weight": 0.3
+		}],
+		"hops": [{
+			"name": "Marynka",
+			"weight": 30
+		}],
+		"others": [],
+		"start": {
+			"temperature": "72°C",
+			"litres": 13
+		},
+		"mash": [{
+			"temperature": "67°C",
+			"time": "90"
+		}, {
+			"temperature": "72°C",
+			"time": "10"
+		}, {
+			"temperature": "76°C",
+			"time": "5"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Marynka",
+                "time": 60,
+                "amount": 30
+			}]
+		},
+		"yeast": {
+			"name": "Wyeast 1084 Irish Ale",
+			"temperature": "22°C"
+		},
+		"fermentation": [],
+		"bottling": "Xg/1L"
+	},
+	"notes": [
+		""
+	]
+}, {
+	"id": 26,
+	"name": "Belgijska 19-tka",
+	"style": "Tripel",
+	"category": "Tripel",
+	"brew_date": "2015-10-31",
+	"picture": "tripel.png",
+    "blg": {
+        "start": 19,
+        "end": 1
+    },
+	"litres": {
+        "preboil": 18,
+        "batch": 15
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 2.5
+		}, {
+			"name": "Pszeniczny",
+			"weight": 1.6
+		}],
+		"hops": [{
+			"name": "Saaz",
+			"weight": 50
+		}, {
+			"name": "Hallertau Tradition",
+			"weight": 25
+		}],
+		"others": [{
+			"name": "Cukier kandyzowany biały",
+			"weight": 1000
+		}, {
+			"name": "Kolendra",
+			"weight": 10
+		}],
+		"start": {
+			"temperature": "66°C",
+			"litres": 10
+		},
+		"mash": [{
+			"temperature": "62°C",
+			"time": "30"
+		}, {
+			"temperature": "72°C",
+			"time": "30"
+		}, {
+			"temperature": "76°C",
+			"time": "5"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Saaz",
+                "time": 60,
+                "amount": 20
+			}, {
+                "name": "Hallertau Tradition",
+                "time": 30,
+                "amount": 25
+			}, {
+                "name": "Saaz",
+                "time": 15,
+                "amount": 10
+			}, {
+                "name": "Kolendra",
+                "time": 15,
+                "amount": 10
+			}, {
+                "name": "Saaz",
+                "time": 10,
+                "amount": 10
+			}, {
+                "name": "Saaz",
+                "time": 1,
+                "amount": 10
+			}]
+		},
+		"yeast": {
+			"name": "Wyeast 3522 Belgian Ardennes",
+			"temperature": "22°C"
+		},
+		"fermentation": [],
+		"bottling": "Xg/1L"
+	},
+	"notes": [
+		"W 4-tym dniu fermentacji burzliwej dodałem herbatkę z 1kg cukru kandyzowanego, podbiło poziom alkoholu do 9,4%"
+	]
+}, {
+	"id": 27,
+	"name": "Chabra",
+	"style": "Session IPA",
+	"category": "IPA",
+	"brew_date": "2016-01-09",
+	"picture": "chabra.png",
+    "blg": {
+        "start": 12,
+        "end": 2
+    },
+	"litres": {
+        "preboil": 24,
+        "batch": 22
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pale Ale",
+			"weight": 3.0
+		}, {
+			"name": "Carared",
+			"weight": 0.4
+		}, {
+			"name": "Carahell",
+			"weight": 0.3
+		}],
+		"hops": [{
+			"name": "Ahtanum",
+			"weight": 25
+		}, {
+			"name": "Citra",
+			"weight": 20
+		}, {
+			"name": "Columbus",
+			"weight": 40
+		}, {
+			"name": "Simcoe",
+			"weight": 20
+		}],
+		"others": [],
+		"start": {
+			"temperature": "66°C",
+			"litres": 14
+		},
+		"mash": [{
+			"temperature": "62°C",
+			"time": "30"
+		}, {
+			"temperature": "72°C",
+			"time": "30"
+		}, {
+			"temperature": "76°C",
+			"time": "5"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Columbus",
+                "time": 60,
+                "amount": 15
+			}, {
+                "name": "Simcoe",
+                "time": 30,
+                "amount": 20
+			}, {
+                "name": "Columbus",
+                "time": 10,
+                "amount": 10
+			}, {
+                "name": "Columbus",
+                "time": 1,
+                "amount": 15
+			}]
+		},
+		"yeast": {
+			"name": "Wyeast 1272 American Ale II",
+			"temperature": "23°C"
+		},
+		"fermentation": [
+			"Ahtanum 25g na 7 dni",
+			"Citra 20g na 7 dni"
+		],
+		"bottling": "Xg/1L"
+	},
+	"notes": [
+		""
+	]
+}, {
+	"id": 28,
+	"name": "Brat Wit",
+	"style": "Wit IPA",
+	"category": "Witbier",
+	"brew_date": "2016-04-25",
+	"picture": "brat_wit.png",
+    "blg": {
+        "start": 11,
+        "end": 3
+    },
+	"litres": {
+        "preboil": 24,
+        "batch": 22.5
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 2.0
+		}, {
+			"name": "Pszeniczny",
+			"weight": 1.0
+		}, {
+			"name": "Zakwaszający",
+			"weight": 0.1
+		}],
+		"hops": [{
+			"name": "Amarillo",
+			"weight": 50
+		}, {
+			"name": "Cascade",
+			"weight": 20
+		}, {
+			"name": "Styrian Goldings",
+			"weight": 15
+		}],
+		"others": [{
+			"name": "Płatki pszenne",
+			"weight": 500
+		}, {
+			"name": "Otręby pszenne prażone",
+			"weight": 500
+		}, {
+			"name": "Płatki owsiane",
+			"weight": 300
+		}, {
+			"name": "Curacao",
+			"weight": 6
+		}, {
+			"name": "Kolendra",
+			"weight": 15
+		}, {
+			"name": "Skórka z 2 cytryn",
+			"weight": 2
+		}, {
+			"name": "Skórka z 2 pomarańczy",
+			"weight": 2
+		}],
+		"start": {
+			"temperature": "53°C",
+			"litres": 13
+		},
+		"mash": [{
+			"temperature": "50°C",
+			"time": "20"
+		}, {
+			"temperature": "62°C",
+			"time": "30"
+		}, {
+			"temperature": "72°C",
+			"time": "30"
+		}, {
+			"temperature": "76°C",
+			"time": "5"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Styrian Goldings",
+                "time": 60,
+                "amount": 15
+			}, {
+                "name": "Cascade",
+                "time": 10,
+                "amount": 15
+			}, {
+                "name": "Kolendra",
+                "time": 10,
+                "amount": 10
+			}, {
+                "name": "Curacao",
+                "time": 10,
+                "amount": 6
+			}, {
+                "name": "Skórka z 1 pomarańczy",
+                "time": 10,
+                "amount": 20
+			}, {
+                "name": "Skórka z 1 cytryny",
+                "time": 10,
+                "amount": 20
+			}, {
+                "name": "Amarillo",
+                "time": 1,
+                "amount": 5
+			}, {
+                "name": "Cascade",
+                "time": 1,
+                "amount": 5
+			}, {
+                "name": "Kolendra",
+                "time": 1,
+                "amount": 5
+			}, {
+                "name": "Skórka z 1 pomarańczy",
+                "time": 1,
+                "amount": 20
+			}, {
+                "name": "Skórka z 1 cytryny",
+                "time": 1,
+                "amount": 20
+			}]
+		},
+		"yeast": {
+			"name": "Fermentum Mobile FM20 Białe Walonki",
+			"temperature": "24°C"
+		},
+		"fermentation": [
+			"Amarillo 45g na 7 dni"
+		],
+		"bottling": "Xg/1L"
+	},
+	"notes": [
+		"Za mało ciała - następnym razem dam więcej pszenicznego"
+	]
+}, {
+	"id": 29,
+	"name": "Grappa",
+	"style": "New Zeland AIPA",
+	"category": "AIPA",
+	"brew_date": "2016-05-03",
+	"picture": "empty.png",
+    "blg": {
+        "start": 16,
+        "end": 3
+    },
+	"litres": {
+        "preboil": 26,
+        "batch": 22
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pale Ale",
+			"weight": 5.0
+		}, {
+			"name": "Pszeniczny",
+			"weight": 1.0
+		}],
+		"hops": [{
+			"name": "Ella",
+			"weight": 150
+		}, {
+			"name": "Sybilla",
+			"weight": 20
+		}, {
+			"name": "Cascade",
+			"weight": 35
+		}],
+		"others": [],
+		"start": {
+			"temperature": "68°C",
+			"litres": 18
+		},
+		"mash": [{
+			"temperature": "64°C",
+			"time": "60"
+		}, {
+			"temperature": "75°C",
+			"time": "10"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Sybilla",
+                "time": 60,
+                "amount": 20
+			}, {
+                "name": "Cascade",
+                "time": 1,
+                "amount": 35
+			}, {
+                "name": "Ella",
+                "time": 1,
+                "amount": 75
+			}]
+		},
+		"yeast": {
+			"name": "Fermentum Mobile FM52 Amerykański Sen",
+			"temperature": "22°C"
+		},
+		"fermentation": [
+			"Ella 75g na 10 dni"
+		],
+		"bottling": "Xg/1L"
+	},
+	"notes": [
+		"W oryginalnej recepturze miało być 150g Galaxy, ale nie było go w paczce z TB :/ Musiałem ratować się tym, co miałem."
+	]
+}, {
+	"id": 30,
+	"name": "LemonIPAda",
+	"style": "IPA",
+	"category": "IPA",
+	"brew_date": "2016-07-10",
+	"picture": "empty.png",
+    "blg": {
+        "start": 14,
+        "end": 3
+    },
+	"litres": {
+        "preboil": 22,
+        "batch": 19
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pale Ale",
+			"weight": 2.7
+		}, {
+			"name": "Pilzneński",
+			"weight": 1.5
+		}, {
+			"name": "Pszeniczny",
+			"weight": 0.7
+		}],
+		"hops": [{
+			"name": "Sorachi Ace",
+			"weight": 120
+		}],
+		"others": [{
+			"name": "Trawa cytrynowa",
+			"weight": 20
+		}, {
+			"name": "Skórki cytryny",
+			"weight": 30
+		}],
+		"start": {
+			"temperature": "70°C",
+			"litres": 14
+		},
+		"mash": [{
+			"temperature": "66°C",
+			"time": "60"
+		}, {
+			"temperature": "78°C",
+			"time": "10"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Sorachi Ace",
+                "time": 60,
+                "amount": 15
+			}, {
+                "name": "Sorachi Ace",
+                "time": 15,
+                "amount": 15
+			}, {
+                "name": "Sorachi Ace",
+                "time": 10,
+                "amount": 20
+			}, {
+                "name": "Sorachi Ace",
+                "time": 5,
+                "amount": 30
+			}, {
+                "name": "Sorachi Ace",
+                "time": 2,
+                "amount": 30
+			}, {
+                "name": "Trawa cytrynowa",
+                "time": 2,
+                "amount": 20
+			}]
+		},
+		"yeast": {
+			"name": "Wyeast 1272 American Ale II",
+			"temperature": "24°C"
+		},
+		"fermentation": [
+			"Sorachi Ace 40g na 7 dni"
+		],
+		"bottling": "6g/1L"
+	},
+	"notes": [
+		"Pierwsza fermentacja w chłodziarce - temp. 18°C. Za nisko - wyszło sporo kokosa, który zdominował cytrynę.",
+		"Po jakimś czasie wylazł diacetyl - już prawie zupełnie nie da się tego pić"
+	]
+}, {
+	"id": 31,
+	"name": "SummerTime",
+	"style": "Summer Ale",
+	"category": "Ale",
+	"brew_date": "2016-10-08",
+	"picture": "empty.png",
+    "blg": {
+        "start": 12,
+        "end": 2
+    },
+	"litres": {
+        "preboil": 24,
+        "batch": 19
+    },
+    "recipe": {
+		"grains": [{
+			"name": "Pilzneński",
+			"weight": 2.0
+		}, {
+			"name": "Pszeniczny",
+			"weight": 0.3
+		}, {
+			"name": "Wiedeński",
+			"weight": 1.6
+		}, {
+			"name": "Karmelowy",
+			"weight": 0.4
+		}],
+		"hops": [{
+			"name": "Amarillo",
+			"weight": 20
+		}, {
+			"name": "Motueka",
+			"weight": 20
+		}, {
+			"name": "Galaxy",
+			"weight": 33
+		}],
+		"others": [],
+		"start": {
+			"temperature": "66°C",
+			"litres": 15
+		},
+		"mash": [{
+			"temperature": "63°C",
+			"time": "30"
+		}, {
+			"temperature": "73°C",
+			"time": "30"
+		}, {
+			"temperature": "78°C",
+			"time": "10"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+                "name": "Galaxy",
+                "time": 60,
+                "amount": 8
+			}, {
+                "name": "Motueka",
+                "time": 15,
+                "amount": 20
+			}, {
+                "name": "Amarillo",
+                "time": 10,
+                "amount": 20
+			}, {
+                "name": "Galaxy",
+                "time": 5,
+                "amount": 25
+			}]
+		},
+		"yeast": {
+			"name": "White Labs WLP001 California Ale",
+			"temperature": "24°C"
+		},
+		"fermentation": [],
+		"bottling": "6g/1L"
+	},
+	"notes": [
+		"Pierwsze warzenie w Grainfatherze. Wyszło lekkie, orzeźwiające, na finiszu lekko kwaskowe i goryczkowate. Brak aromatów chmielowych.",
+		"Pierwszy test po 2 tygodniach od zabutelkowania. Aromat czystej farby emulsyjnej, smak rozpuszczalnika. Wylałem po kilku łykach. Jeśli przez następne 2 tygodnie nic się nie zmieni - cała warka idzie do kibla."
+	]
+}, {
+	"id": 32,
+	"name": "Bock",
+	"style": "Bock",
+	"category": "Bock",
+	"brew_date": "2016-10-13",
+	"picture": "empty.png",
+    "blg": {
+        "start": 16,
+        "end": 4
+    },
+	"litres": {
+        "preboil": 26,
+        "batch": 20
+    },
+	"recipe": {
+		"grains": [{
+			"name": "Monachijski",
+			"weight": 3.5
+		}, {
+			"name": "Wiedeński",
+			"weight": 1.5
+		}, {
+			"name": "Karmelowy 10L",
+			"weight": 0.5
+		}, {
+			"name": "Karmelowy 60L",
+			"weight": 0.15
+		}, {
+			"name": "Melanoidynowy",
+			"weight": 0.3
+		}],
+		"hops": [{
+			"name": "Hallertau Tradition",
+			"weight": 45
+		}],
+		"others": [],
+		"start": {
+			"temperature": "64°C",
+			"litres": 19
+		},
+		"mash": [{
+			"temperature": "63°C",
+			"time": "10"
+		}, {
+			"temperature": "72°C",
+			"time": "50"
+		}, {
+			"temperature": "75°C",
+			"time": "10"
+		}],
+		"cooking": {
+			"time": "80",
+			"hopping": [{
+				"name": "Hallertau Tradition",
+                "time": 70,
+                "amount": 25
+			}, {
+				"name": "Hallertau Tradition",
+                "time": 20,
+                "amount": 20
+			}]
+		},
+		"yeast": {
+			"name": "Mangrove Jack's Bavarian Lager",
+			"temperature": "22°C"
+		},
+		"fermentation": [],
+		"bottling": "6g/1L"
+	},
+	"notes": [
+		"Fermentacja w chłodziarce (11-12 stopni). Fermentacja ruszyła po 3-ech dniach - trzeba było się ratować drugą saszetką drożdży. ",
+		"Pierwsza kontrola po 2 tygodniach. Odfermentowało do 7Blg, brak niepożądanych aromatów, smak bardzo w porządku.",
+		"Po 3 tygodniach - odfermentowanie do 4Blg. Dużo ciała, w smaku świetne. Nie mogę się doczekać gotowego."
+	]
+}, {
+	"id": 33,
+	"name": "Punk IPA",
+	"style": "AIPA",
+	"category": "AIPA",
+	"brew_date": "2016-10-29",
+	"picture": "empty.png",
+	"blg": {
+        "start": 15,
+        "end": 1
+    },
+	"litres": {
+        "preboil": 25,
+        "batch": 20
+    },
+	"recipe": {
+		"grains": [{
+			"name": "Pale Ale",
+			"weight": 5
+		}, {
+			"name": "Karmelowy 10L",
+			"weight": 0.25
+		}],
+		"hops": [{
+			"name": "Chinook",
+			"weight": 115
+		}, {
+			"name": "Ahtanum",
+			"weight": 75
+		}, {
+			"name": "Simcoe",
+			"weight": 50
+		}, {
+			"name": "Nelson Sauvin",
+			"weight": 35
+		}, {
+			"name": "Cascade",
+			"weight": 38
+		}, {
+			"name": "Amarillo",
+			"weight": 10
+		}],
+		"others": [],
+		"start": {
+			"temperature": "68°C",
+			"litres": 18
+		},
+		"mash": [{
+			"temperature": "66°C",
+			"time": "75"
+		}, {
+			"temperature": "75°C",
+			"time": "10"
+		}],
+		"cooking": {
+			"time": "60",
+			"hopping": [{
+				"name": "Chinook",
+                "time": 60,
+                "amount": 20
+			}, {
+				"name": "Ahtanum",
+                "time": 60,
+                "amount": 13
+			}, {
+				"name": "Chinook",
+                "time": 30,
+                "amount": 20
+			}, {
+				"name": "Ahtanum",
+                "time": 30,
+                "amount": 13
+			}, {
+				"name": "Chinook",
+                "time": 5,
+                "amount": 28
+			}, {
+				"name": "Ahtanum",
+                "time": 5,
+                "amount": 13
+			}, {
+				"name": "Simcoe",
+                "time": 2,
+                "amount": 13
+			}, {
+				"name": "Nelson Sauvin",
+                "time": 2,
+                "amount": 13
+			}]
+		},
+		"yeast": {
+			"name": "Safale US-05",
+			"temperature": "19°C"
+		},
+        "fermentation": [],
+		"bottling": "6g/1L"
+	},
+	"notes": [
+		"Klon Punk IPA Brew Doga, wg oryginalnej receptury."
+	]
+}]}
