@@ -44753,6 +44753,7 @@
 	        key: 'showRecipe',
 	        value: function showRecipe(beer) {
 	            this.setState({ recipe: beer });
+	            window.scrollTo(0, 0);
 	            this.forceUpdate();
 	        }
 	    }, {
@@ -44815,7 +44816,6 @@
 	                chartHeight = _state.chartHeight;
 
 	            recipe = !_.isEmpty(recipe) ? recipe : this.getLatestBeer();
-	            window.scrollTo(0, 0);
 
 	            return _react2.default.createElement(
 	                'div',
@@ -47638,7 +47638,7 @@
 
 	var _Statistics2 = _interopRequireDefault(_Statistics);
 
-	var _StatsSummary = __webpack_require__(285);
+	var _StatsSummary = __webpack_require__(275);
 
 	var _StatsSummary2 = _interopRequireDefault(_StatsSummary);
 
@@ -47650,8 +47650,8 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var LineChart = __webpack_require__(275).Line;
-	var BarChart = __webpack_require__(275).Bar;
+	var LineChart = __webpack_require__(276).Line;
+	var BarChart = __webpack_require__(276).Bar;
 
 	var MONTHS = ['Styczeń', 'Luty', 'Marzec', 'Kwiecień', 'Maj', 'Czerwiec', 'Lipiec', 'Sierpień', 'Wrzesień', 'Październik', 'Listopad', 'Grudzień'];
 	var CHART_COLOR = 'rgba(255, 255, 255, 0.4)';
@@ -50895,28 +50895,131 @@
 /* 275 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = {
-	  Bar: __webpack_require__(276),
-	  Doughnut: __webpack_require__(280),
-	  Line: __webpack_require__(281),
-	  Pie: __webpack_require__(282),
-	  PolarArea: __webpack_require__(283),
-	  Radar: __webpack_require__(284),
-	  createClass: __webpack_require__(277).createClass
-	};
+	'use strict';
 
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactDom = __webpack_require__(34);
+
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _ = __webpack_require__(242);
+
+	var StatsSummary = function (_React$Component) {
+	    _inherits(StatsSummary, _React$Component);
+
+	    function StatsSummary(props) {
+	        _classCallCheck(this, StatsSummary);
+
+	        return _possibleConstructorReturn(this, (StatsSummary.__proto__ || Object.getPrototypeOf(StatsSummary)).call(this, props));
+	    }
+
+	    _createClass(StatsSummary, [{
+	        key: 'render',
+	        value: function render() {
+	            var _props = this.props,
+	                title = _props.title,
+	                unit = _props.unit,
+	                value = _props.value,
+	                name = _props.name;
+
+
+	            if (!_.isEmpty(name)) {
+	                return _react2.default.createElement(
+	                    'div',
+	                    { className: 'col-xs-4 col-md-12 m-b-40' },
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'f24 text-grey' },
+	                        title
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'f36' },
+	                        value,
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'text-grey f28' },
+	                            unit
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'f20' },
+	                        name
+	                    )
+	                );
+	            } else {
+	                return _react2.default.createElement(
+	                    'div',
+	                    { className: 'col-xs-4 col-md-12 m-b-20' },
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'f24 text-grey' },
+	                        title
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'f36' },
+	                        value,
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'text-grey f28' },
+	                            unit
+	                        )
+	                    )
+	                );
+	            }
+	        }
+	    }]);
+
+	    return StatsSummary;
+	}(_react2.default.Component);
+
+	exports.default = StatsSummary;
 
 /***/ },
 /* 276 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var vars = __webpack_require__(277);
+	module.exports = {
+	  Bar: __webpack_require__(277),
+	  Doughnut: __webpack_require__(281),
+	  Line: __webpack_require__(282),
+	  Pie: __webpack_require__(283),
+	  PolarArea: __webpack_require__(284),
+	  Radar: __webpack_require__(285),
+	  createClass: __webpack_require__(278).createClass
+	};
+
+
+/***/ },
+/* 277 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var vars = __webpack_require__(278);
 
 	module.exports = vars.createClass('Bar', ['getBarsAtEvent']);
 
 
 /***/ },
-/* 277 */
+/* 278 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -50979,7 +51082,7 @@
 	    };
 
 	    classData.initializeChart = function(nextProps) {
-	      var Chart = __webpack_require__(278);
+	      var Chart = __webpack_require__(279);
 	      var el = ReactDOM.findDOMNode(this);
 	      var ctx = el.getContext("2d");
 	      var chart = new Chart(ctx)[chartType](nextProps.data, nextProps.options || {});
@@ -51070,7 +51173,7 @@
 
 
 /***/ },
-/* 278 */
+/* 279 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -51384,7 +51487,7 @@
 				//Method for warning of errors
 				if (window.console && typeof window.console.warn === "function") console.warn(str);
 			},
-			amd = helpers.amd = ("function" === 'function' && __webpack_require__(279)),
+			amd = helpers.amd = ("function" === 'function' && __webpack_require__(280)),
 			//-- Math methods
 			isNumber = helpers.isNumber = function(n){
 				return !isNaN(parseFloat(n)) && isFinite(n);
@@ -54812,7 +54915,7 @@
 
 
 /***/ },
-/* 279 */
+/* 280 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {module.exports = __webpack_amd_options__;
@@ -54820,152 +54923,49 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ },
-/* 280 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var vars = __webpack_require__(277);
-
-	module.exports = vars.createClass('Doughnut', ['getSegmentsAtEvent']);
-
-
-/***/ },
 /* 281 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var vars = __webpack_require__(277);
+	var vars = __webpack_require__(278);
 
-	module.exports = vars.createClass('Line', ['getPointsAtEvent']);
+	module.exports = vars.createClass('Doughnut', ['getSegmentsAtEvent']);
 
 
 /***/ },
 /* 282 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var vars = __webpack_require__(277);
+	var vars = __webpack_require__(278);
 
-	module.exports = vars.createClass('Pie', ['getSegmentsAtEvent']);
+	module.exports = vars.createClass('Line', ['getPointsAtEvent']);
 
 
 /***/ },
 /* 283 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var vars = __webpack_require__(277);
+	var vars = __webpack_require__(278);
 
-	module.exports = vars.createClass('PolarArea', ['getSegmentsAtEvent']);
+	module.exports = vars.createClass('Pie', ['getSegmentsAtEvent']);
 
 
 /***/ },
 /* 284 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var vars = __webpack_require__(277);
+	var vars = __webpack_require__(278);
 
-	module.exports = vars.createClass('Radar', ['getPointsAtEvent']);
+	module.exports = vars.createClass('PolarArea', ['getSegmentsAtEvent']);
 
 
 /***/ },
 /* 285 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	var vars = __webpack_require__(278);
 
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
+	module.exports = vars.createClass('Radar', ['getPointsAtEvent']);
 
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactDom = __webpack_require__(34);
-
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var _ = __webpack_require__(242);
-
-	var StatsSummary = function (_React$Component) {
-	    _inherits(StatsSummary, _React$Component);
-
-	    function StatsSummary(props) {
-	        _classCallCheck(this, StatsSummary);
-
-	        return _possibleConstructorReturn(this, (StatsSummary.__proto__ || Object.getPrototypeOf(StatsSummary)).call(this, props));
-	    }
-
-	    _createClass(StatsSummary, [{
-	        key: 'render',
-	        value: function render() {
-	            var _props = this.props,
-	                title = _props.title,
-	                unit = _props.unit,
-	                value = _props.value,
-	                name = _props.name;
-
-
-	            if (!_.isEmpty(name)) {
-	                return _react2.default.createElement(
-	                    'div',
-	                    { className: 'col-xs-4 col-md-12 m-b-40' },
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'f24 text-grey' },
-	                        title
-	                    ),
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'f36' },
-	                        value,
-	                        _react2.default.createElement(
-	                            'span',
-	                            { className: 'text-grey f28' },
-	                            unit
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'f20' },
-	                        name
-	                    )
-	                );
-	            } else {
-	                return _react2.default.createElement(
-	                    'div',
-	                    { className: 'col-xs-4 col-md-12 m-b-20' },
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'f24 text-grey' },
-	                        title
-	                    ),
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'f36' },
-	                        value,
-	                        _react2.default.createElement(
-	                            'span',
-	                            { className: 'text-grey f28' },
-	                            unit
-	                        )
-	                    )
-	                );
-	            }
-	        }
-	    }]);
-
-	    return StatsSummary;
-	}(_react2.default.Component);
-
-	exports.default = StatsSummary;
 
 /***/ }
 /******/ ]);
