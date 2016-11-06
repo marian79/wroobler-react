@@ -1,0 +1,35 @@
+{
+  "name": "wroobler-react",
+  "version": "1.0.0",
+  "description": "Wroobler with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './tests/**/*.spec.js' --compilers js:babel-core/register"
+  },
+  "author": "Mariusz Wrobel <marianwr@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^1.1.1",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.16.4",
+    "react": "^15.3.2",
+    "react-chartjs": "^0.8.0",
+    "react-dom": "^15.3.2",
+    "react-motion": "^0.4.5",
+    "react-rangeslider": "^1.0.9"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.16.0",
+    "expect": "^1.20.2",
+    "mocha": "^3.1.0",
+    "react-addons-test-utils": "^15.3.2",
+    "react-router": "^2.8.1",
+    "webpack": "^1.13.2"
+  }
+}
