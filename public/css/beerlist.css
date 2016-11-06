@@ -1,0 +1,138 @@
+.beer-list {
+    margin: 30px 0;
+}
+
+.beer-list li {
+    list-style: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.beer-list li .beer .glass-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: -70px;
+    top: -5px;
+    box-shadow: 1px 1px 10px #333;
+    z-index: 10;
+}
+
+.beer-list li .beer .glass-container .glass-inner {
+    border: 2px dashed rgba(0, 0, 0, 0.15);
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+.beer-list li .beer:hover .glass-container .glass-inner {
+    border-color: rgba(0, 0, 0, 0.6);
+}
+
+.beer-list li .beer .glass-container .glass-inner img {
+    position: relative;
+    top: 12px;
+    left: 23px;
+}
+
+.beer-list li .beer .beer-title {
+    white-space: nowrap;
+}
+
+.beer-list li .beer .beer-date {
+    width: 50%;
+    white-space: nowrap;
+}
+
+.beer-list li .beer .description {
+    width: 100%;
+    height: 80px;
+    box-shadow: 1px 1px 10px #b7b7b7;
+    margin-top: -95px;
+    z-index: 5;
+    position: relative;
+    background: #fff;
+    background: -webkit-linear-gradient(left, #fff, #f0f0f0);
+    background: -o-linear-gradient(left, #fff, #f0f0f0);
+    background: -moz-linear-gradient(left, #fff, #f0f0f0);
+    background: linear-gradient(left, #fff, #f0f0f0);
+}
+
+.beer-list li .beer .description .style {
+    width: 170px;
+    float: right;
+    height: 30px;
+    position: relative;
+    top: -30px;
+    box-shadow: 1px 0px 1px #b7b7b7;
+}
+
+.beer-list li .beer .description .style:before {
+    content: ' ';
+    width: 20px;
+    height: 30px;
+    background-color: inherit;
+    transform: skew(-25deg);
+    -o-transform: skew(-25deg);
+    -moz-transform: skew(-25deg);
+    -webkit-transform: skew(-25deg);
+    position: absolute;
+    left: -10px;
+    box-shadow: -1px 0px 1px #b7b7b7;
+}
+
+.beer-list li .beer .description .style span {
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+.beer-list li .beer .description .characteristics {
+    position: absolute;
+    right: 5px;
+    color: #4d4d4d;
+}
+
+.beer-list li .beer .description .characteristics.alk {
+    top: 5px;
+}
+
+.beer-list li .beer .description .characteristics.blg {
+    top: 30px;
+}
+
+.beer-list li .beer .description .characteristics.ibu {
+    top: 55px;
+}
+
+.beer-list li .beer .description .characteristics span {
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 460px) {
+    .beer-title {
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 461px) {
+    .beer-title {
+        font-size: 24px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .beer-list li {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1201px) {
+    .beer-title {
+        font-size: 26px !important;
+    }
+}

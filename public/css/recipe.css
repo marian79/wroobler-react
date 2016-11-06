@@ -1,0 +1,90 @@
+.recipe {
+    padding: 20px 100px;
+}
+
+.recipe .header .style-name {
+    margin-top: -5px;
+}
+
+.recipe .body {
+    border-top: 1px solid #aaa;
+}
+
+.recipe .body .glass-image {
+    width: 140px;
+    text-align: center;
+    margin-top: 30px;
+    border-right: 1px solid #ddd;
+}
+
+.recipe .body .parameters {
+    margin-left: 200px;
+}
+
+.recipe .body .ingredients-list {
+    display: block;
+    margin-left: 240px;
+}
+
+.recipe .body .ingredients-list li span.amount {
+    width: 60px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.recipe .body .ingredients-list li span.unit {
+    width: 12px;
+    display: inline-block;
+}
+
+.recipe .body .process-title {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    font-size: 28px;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1201px) {
+    .recipe .body .ingredients-list {
+        margin-left: 80px;
+    }
+    .recipe .body .ingredients-list .ingredient-name {
+        font-size: 20px !important;
+    }
+    .recipe .body img:not(.glass) {
+        width: 80px;
+    }
+    .start-element {
+        font-size: 20px !important;
+    }
+    .cooking-time {
+        text-align: right;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 991px) {
+    .recipe .body .ingredients-list {
+        margin-left: 160px;
+    }
+    .recipe .body .ingredients-list .ingredient-name {
+        font-size: 20px !important;
+    }
+    .recipe .body img:not(.glass) {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .recipe .body .ingredients-list {
+        margin-left: 120px;
+    }
+    .recipe .body .ingredients-list .ingredient-name {
+        font-size: 18px !important;
+    }
+    .recipe .body img:not(.glass) {
+        width: 100px;
+    }
+}
