@@ -32,6 +32,7 @@ class Layout extends React.Component {
 
     showRecipe(beer) {
         this.setState({recipe: beer});
+        window.scrollTo(0, 0);
         this.forceUpdate();
     }
 
@@ -80,7 +81,6 @@ class Layout extends React.Component {
     render() {
         let { beers, recipe, chartWidth, chartHeight } = this.state;
         recipe = !_.isEmpty(recipe) ? recipe : this.getLatestBeer();
-        window.scrollTo(0, 0);
 
         return (
           <div className="container-fluid">
